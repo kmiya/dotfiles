@@ -28,4 +28,4 @@ bindkey -M afu "^M" afu+cancel-and-accept-line
 package-install github rupa/z
 # パッケージを読み込む。
 
-[[ -z $PS1 ]] || source $(package-directory rupa/z)/z.sh
+. $(package-directory rupa/z)/z.sh
